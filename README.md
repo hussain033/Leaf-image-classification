@@ -45,6 +45,8 @@ for Cloning the repo, use the following command:
 ``` 
 git clone https://github.com/hussain033/Leaf-image-classification
 ```
+The Dataset used to train the model is hosted as a Kaggle.
+Click here for the [Dataset](https://www.kaggle.com/datasets/hmohamedhussain/leaves-image-dataset).
 
 The Dataset is divided into train, test and validation set and there are totally 12 classes.
 
