@@ -1,7 +1,5 @@
 # Leaf Image Classification
 
-![GitHub](https://img.shields.io/github/license/your-username/your-repo-name)
-
 Welcome to the Leaf Image Classification repository! This project focuses on the development of a deep learning model for accurately identifying plant species through leaf images. The project utilizes the MobileNet_v2 architecture with transfer learning and data augmentation techniques. The model achieves an impressive accuracy of 92% on unseen data, making it a valuable resource for plant identification and learning.
 
 ## Introduction
@@ -25,13 +23,30 @@ The deep learning model is developed using transfer learning with the MobileNet_
 ### Inference
 To use the leaf image classification model for inference, follow these steps:
 
-1. Install the required dependencies by running: `pip install -r requirements.txt`.
-2. Place your leaf image in the appropriate directory.
-3. Run the inference script: `python inference.py --image path/to/your/image.jpg`.
+1. Cloning the repository: 
+   ```
+   git clone https://github.com/hussain033/Leaf-image-classification
+   ```
+3. Install the required dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Place your leaf image in the appropriate directory.
+5. Run the inference script:
+   ```
+   python inference.py path/to/your/image.jpg
+   ```
 
 ### Experimentation
 You can experiment with the model training of the project by replacing the mobilenetv2 model with any other image classification such as resnet, alexnet to mention a few. 
 We have provided the model training ipynb file, feel free to experiment with it by cloning the repo.
+
+for Cloning the repo, use the following command:
+``` 
+git clone https://github.com/hussain033/Leaf-image-classification
+```
+
+The Dataset is divided into train, test and validation set and there are totally 12 classes.
 
 ## Results
 
