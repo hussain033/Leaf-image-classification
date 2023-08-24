@@ -1,4 +1,4 @@
-from predict.py import pre_process, predict
+from predict import pre_process, predict
 def predict_api(img_path):
     image = Image.open(img_path)
     image = pre_process(image)
