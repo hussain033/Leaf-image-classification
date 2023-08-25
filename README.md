@@ -22,7 +22,9 @@ The deep learning model is developed using transfer learning with the MobileNet_
 
 ### User Interface
 To use the model in a user interface, check out our Hugging Face space,
-[Leaf Image Classification](https://huggingface.co/spaces/Hussain033/Leaf_Classification).
+[Leaf Image Classification](https://huggingface.co/spaces/Hussain033/Leaf_Image_Classification).
+![image](https://github.com/hussain033/Leaf-image-classification/assets/83116894/bb260837-d4e5-4856-adb3-54e3e1b973c6)
+
 
 It is an easy to use interface, built with gradio and hosted Hugging Face platform. 
 
