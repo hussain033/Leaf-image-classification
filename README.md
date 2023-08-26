@@ -14,6 +14,8 @@ The primary objective is to develop a system capable of accurately identifying p
 
 ### Data Collection and Augmentation
 A diverse dataset of plant leaves was collected for model training. To enhance the dataset and prevent overfitting, various data augmentation techniques were applied, including rotation, flipping, and scaling. This augmented dataset improves the model's performance and generalization.
+Currently, the dataset consists of images of about 12 leaf species - Alstonia Scholaris, Arjun, Bael, Basil,
+Chinar, Gauva, Jamun, Jatropa, Lemon, Mango, Pomegranate, Pongamia Pinnata. We will update the dataset to include more no. of leaf species in future.
 
 ### Model Development with MobileNet_v2 and Transfer Learning
 The deep learning model is developed using transfer learning with the MobileNet_v2 architecture. MobileNet_v2 is renowned for its excellent performance in image classification tasks. Transfer learning allows us to adapt the pretrained MobileNet_v2 model to our specific classification task, leveraging its learned features and reducing training time.
@@ -66,4 +68,11 @@ The developed model achieves an accuracy rate of 92% on unseen data. This high a
 
 The Leaf Image Classification project provides an effective solution for plant species identification. By leveraging transfer learning with MobileNet_v2 and applying data augmentation, the model achieves an impressive accuracy rate. This system serves as a valuable tool for users seeking to identify and learn about plants.
 
+## Contribution
+
+Our immediate focus is on expanding the project's capabilities to encompass a wide array of leaf species. While it currently excels at recognizing 12 different species, our ultimate goal is for it to become the primary tool for recognizing a wide range of leaves.
+
+We invite you to experience the project firsthand and welcome your contributions as we continue refining and evolving this remarkable solution.
+
+If you are willing to contribute to the project, email me: hmohamedhussain2004@gmail.com.
 
